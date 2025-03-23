@@ -30,6 +30,7 @@ namespace TpMod6_103022300147
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Kode awal untuk SayTubeVideo");
             SayTubeVideo video = new SayTubeVideo("Belajar C# Dasar");
             video.PrintVideoDetails();
             video.IncreasePlayCount(100, video.PrintVideoDetails);
